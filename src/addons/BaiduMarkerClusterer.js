@@ -567,9 +567,9 @@ var BMapLib = window.BMapLib = BMapLib || {};
 
         var thatMap = this._map;
         var thatBounds = this.getBounds();
-        this._clusterMarker.addEventListener("click", function(event){
-            thatMap.setViewport(thatBounds);
-        });
+        //this._clusterMarker.addEventListener("click", function(event){
+            // thatMap.setViewport(thatBounds);
+        //});
 
     };
 
